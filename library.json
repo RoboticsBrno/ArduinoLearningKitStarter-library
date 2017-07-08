@@ -1,0 +1,21 @@
+{
+    "name": "ArduinoLearkingKitStarter",
+    "keywords": "ESP32, Learning Kit",
+    "description": "Library for the ArduinoLearningKitStarter DPS by RobotikaBrno.",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library.git"
+    },
+    "authors": [
+        {
+            "name": "Jan Mrázek",
+            "email": "email@honzamrazek.cz",
+            "url": "http://www.robotikabrno.cz",
+            "maintainer": true
+        }
+    ],
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+}
