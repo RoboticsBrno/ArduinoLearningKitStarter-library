@@ -1,6 +1,6 @@
 {
-    "name": "ArduinoLearkingKitStarter",
-    "keywords": "ESP32, Learning Kit",
+    "name": "ArduinoLearningKitStarter",
+    "keywords": "ESP32, Learning Kit, ALKS, Robotarna, RobotikaBrno, RoboticsBrno",
     "description": "Library for the ArduinoLearningKitStarter DPS by RobotikaBrno.",
     "repository":
     {
@@ -13,9 +13,14 @@
             "email": "email@honzamrazek.cz",
             "url": "http://www.robotikabrno.cz",
             "maintainer": true
+        },
+        {
+            "name": "Jaroslav Páral",
+            "email": "paral@robotikabrno.cz",
+            "url": "http://www.robotikabrno.cz"
         }
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "frameworks": "arduino",
     "platforms": "espressif32"
 }
