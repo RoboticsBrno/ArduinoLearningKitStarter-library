@@ -9,8 +9,8 @@ static const int L_G = 17;
 static const int L_Y = 23;
 static const int L_B = 5;
 static const int L_RGB_R = 4;
-static const int L_RGB_G = 16;
-static const int L_RGB_B = 21;
+static const int L_RGB_G = 21;
+static const int L_RGB_B = 16;
 
 static const int SW1 = 15;
 static const int SW2 = 2;
