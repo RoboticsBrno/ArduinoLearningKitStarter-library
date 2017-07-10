@@ -15,12 +15,12 @@
             "maintainer": true
         },
         {
-            "name": "Jaroslav Páral",
+            "name": "Jaroslav Paral",
             "email": "paral@robotikabrno.cz",
             "url": "http://www.robotikabrno.cz"
         }
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "frameworks": "arduino",
     "platforms": "espressif32"
 }
