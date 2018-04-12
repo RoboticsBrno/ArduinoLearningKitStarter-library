@@ -1,4 +1,4 @@
-#include "LearningKit.h"
+#include "ALKS.h"
 
 void setupLeds() {
     pinMode( L_R, OUTPUT );
