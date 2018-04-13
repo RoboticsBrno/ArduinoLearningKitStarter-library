@@ -2,8 +2,9 @@
 
 #include "Arduino.h"
 
+static const uint32_t DEFAULT_SERIAL_SPEED = 115200;
+
 #ifdef AVR
-static const unsigned long DEFAULT_SERIAL_SPEED = 115200;
 static const uint8_t L_R = 12;
 static const uint8_t L_G = 7;
 static const uint8_t L_Y = 13;
@@ -33,7 +34,6 @@ static const uint8_t S4 = 10;
 static const uint8_t S5 = 11;
 
 #elif defined(ESP32)
-static const uint16_t DEFAULT_SERIAL_SPEED = 115200;
 static const uint8_t L_R = 22;
 static const uint8_t L_G = 17;
 static const uint8_t L_Y = 23;
@@ -64,7 +64,6 @@ static const uint8_t S5 = 21;
 #endif
 
 #ifdef AVR_Board_legacy
-static const unsigned long DEFAULT_SERIAL_SPEED = 115200;
 static const uint8_t L_R = 12;
 static const uint8_t L_G = 7;
 static const uint8_t L_Y = 13;
@@ -88,7 +87,8 @@ static const uint8_t PHOTO = A2;
 static const uint8_t DHT_PIN = A3;
 #endif
 
-
-void setupLeds();
-void setupRgbLed();
-void setupButtons();
+    void setupLeds();
+    void setupRgbLed();
+    void setupButtons();
+    void setupPiezo();
+    void setupAll();
