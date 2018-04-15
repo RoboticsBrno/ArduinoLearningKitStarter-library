@@ -27,5 +27,5 @@
     ],
     "version": "1.1.1",
     "frameworks": "arduino",
-    "platforms": "avr, espressif32"
+    "platforms": "atmelavr, espressif32"
 }
