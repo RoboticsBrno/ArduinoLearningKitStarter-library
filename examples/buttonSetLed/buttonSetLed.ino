@@ -1,6 +1,6 @@
 #include <ALKS.h>
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(DEFAULT_SERIAL_SPEED);
     setupRgbLed();
     setupLeds();
     setupButtons();
