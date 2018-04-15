@@ -4,7 +4,30 @@
 
 static const uint32_t DEFAULT_SERIAL_SPEED = 115200;
 
-#ifdef AVR
+#ifdef LegALKS
+static const uint8_t L_R = 12;
+static const uint8_t L_G = 7;
+static const uint8_t L_Y = 13;
+static const uint8_t L_B = 8;
+static const uint8_t L_RGB_R = 5;
+static const uint8_t L_RGB_G = 11;
+static const uint8_t L_RGB_B = 6;
+
+static const uint8_t SW1 = 2;
+static const uint8_t SW2 = 4;
+static const uint8_t SW3 = 3;
+
+static const uint8_t POT1 = A0;
+static const uint8_t POT2 = A1;
+
+static const uint8_t PIEZO1 = 9;
+static const uint8_t PIEZO2 = 10;
+
+static const uint8_t PHOTO = A2;
+
+static const uint8_t DHT_PIN = A3;
+
+#elif defined(AVR)
 static const uint8_t L_R = 12;
 static const uint8_t L_G = 7;
 static const uint8_t L_Y = 13;
@@ -63,32 +86,8 @@ static const uint8_t S4 = 19;
 static const uint8_t S5 = 21;
 #endif
 
-#ifdef AVR_Board_legacy
-static const uint8_t L_R = 12;
-static const uint8_t L_G = 7;
-static const uint8_t L_Y = 13;
-static const uint8_t L_B = 8;
-static const uint8_t L_RGB_R = 5;
-static const uint8_t L_RGB_G = 11;
-static const uint8_t L_RGB_B = 6;
-
-static const uint8_t SW1 = 2;
-static const uint8_t SW2 = 4;
-static const uint8_t SW3 = 3;
-
-static const uint8_t POT1 = A0;
-static const uint8_t POT2 = A1;
-
-static const uint8_t PIEZO1 = 9;
-static const uint8_t PIEZO2 = 10;
-
-static const uint8_t PHOTO = A2;
-
-static const uint8_t DHT_PIN = A3;
-#endif
-
-    void setupLeds();
-    void setupRgbLed();
-    void setupButtons();
-    void setupPiezo();
-    void setupAll();
+void setupLeds();
+void setupRgbLed();
+void setupButtons();
+void setupPiezo();
+void setupAll();
