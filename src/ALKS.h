@@ -84,6 +84,9 @@ static const uint8_t S2 = 16;
 static const uint8_t S3 = 18;
 static const uint8_t S4 = 19;
 static const uint8_t S5 = 21;
+
+#else
+  #error "Selected unsupported platform/processor!"
 #endif
 
 void setupLeds();
