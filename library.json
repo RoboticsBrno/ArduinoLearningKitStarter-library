@@ -28,4 +28,13 @@
     "version": "1.1.1",
     "frameworks": "arduino",
     "platforms": "atmelavr, espressif32"
+	"dependencies": [
+		{
+			"name": "ServoESP32",
+			"platforms": "espressif32"
+		}
+		{
+			"name": "DHT sensor library"
+		}
+	]
 }
