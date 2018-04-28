@@ -1,7 +1,7 @@
 {
     "name": "ArduinoLearningKitStarter",
     "keywords": "ESP32, Learning Kit, ALKS, Robotarna, RobotikaBrno, RoboticsBrno",
-    "description": "Library for the ArduinoLearningKitStarter DPS by RobotikaBrno.",
+    "description": "Library for the ArduinoLearningKitStarter PCB by RobotikaBrno.",
     "repository":
     {
         "type": "git",
