@@ -1,3 +1,11 @@
+/*
+  ALKS LED example
+
+  Example with LED control and serial communication.
+
+  Example created by Jarek Páral (JarekParal) @RoboticsBrno
+*/
+
 #include <ALKS.h>
 
 void setup() {
