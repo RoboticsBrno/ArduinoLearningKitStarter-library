@@ -24,11 +24,11 @@ Definition of pins, which are possible to use on board ALKS ([PDF with pinout on
 - `L_RGB_B` or `LED_RGB_BLUE`
 
 ### Servos
-- `S1` or `SEVRO1`
-- `S2` or `SEVRO2`
-- `S3` or `SEVRO3`
-- `S4` or `SEVRO4`
-- `S5` or `SEVRO5`
+- `S1` or `SERVO1`
+- `S2` or `SERVO2`
+- `S3` or `SERVO3`
+- `S4` or `SERVO4`
+- `S5` or `SERVO5`
 
 ### Switches/Buttons
 - `SW1`

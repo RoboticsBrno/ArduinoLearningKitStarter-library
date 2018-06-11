@@ -98,11 +98,11 @@ static const uint8_t LED_RGB_RED = L_RGB_R;
 static const uint8_t LED_RGB_GREEN = L_RGB_G;
 static const uint8_t LED_RGB_BLUE = L_RGB_B;
 
-static const uint8_t SEVRO1 = S1;
-static const uint8_t SEVRO2 = S2;
-static const uint8_t SEVRO3 = S3;
-static const uint8_t SEVRO4 = S4;
-static const uint8_t SEVRO5 = S5;
+static const uint8_t SERVO1 = S1;
+static const uint8_t SERVO2 = S2;
+static const uint8_t SERVO3 = S3;
+static const uint8_t SERVO4 = S4;
+static const uint8_t SERVO5 = S5;
 
 void setupLeds();
 void setupRgbLed();
