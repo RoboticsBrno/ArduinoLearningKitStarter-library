@@ -3,7 +3,7 @@
 
   Example with LED controlled by button.
 
-  Example created by Jarek Páral (JarekParal) @RoboticsBrno
+  Example created by Jarek Páral (@JarekParal) @RoboticsBrno
 */
 
 #include <ALKS.h>
