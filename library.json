@@ -2,6 +2,7 @@
     "name": "ArduinoLearningKitStarter",
     "keywords": "ESP32, Learning Kit, ALKS, Robotarna, RobotikaBrno, RoboticsBrno",
     "description": "Library for the PCB ArduinoLearningKitStarter (ALKS) by RoboticsBrno with definition of pins and initialization of peripheries.",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library.git"
