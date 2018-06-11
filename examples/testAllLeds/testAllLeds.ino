@@ -1,7 +1,7 @@
 /*
   ALKS LED example
 
-  Example with LED control and serial communication.
+  Example with tests of all LEDs and serial communication.
 
   Example created by Jarek Páral (@JarekParal) @RoboticsBrno
 */
