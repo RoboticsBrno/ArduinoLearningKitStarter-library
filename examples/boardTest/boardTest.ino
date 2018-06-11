@@ -1,10 +1,10 @@
 /*
-  ALKS Board tester firmware
+  ArduinoLearningKitStarter (ALKS) Board tester firmware
 
-  This example is used for testing ALKS boards after manfacturing process.
+  This example is used for testing ALKS boards after manufacturing process.
 
-  Original example created by Jarek Páral (JarekParal) @RoboticsBrno
-  Rework done by Kryštof Černý (CornyjK) @RoboticsBrno
+  Original example created by Jarek Páral (@JarekParal) @RoboticsBrno
+  Rework done by Kryštof Černý (@CornyjK) @RoboticsBrno
 */
 
 #include <ALKS.h>
@@ -58,9 +58,9 @@ void loop() {
     Serial.print("\n");
   }
 
-  digitalWrite(L_RGB_R, digitalRead(SW3)   == HIGH ? LOW : HIGH);
+  digitalWrite(L_RGB_R, digitalRead(SW3) == HIGH ? LOW : HIGH);
   digitalWrite(L_RGB_G, digitalRead(SW2) == HIGH ? LOW : HIGH);
-  digitalWrite(L_RGB_B, digitalRead(SW1)  == HIGH ? LOW : HIGH);
+  digitalWrite(L_RGB_B, digitalRead(SW1) == HIGH ? LOW : HIGH);
 
   if (Serial.available())
   {
