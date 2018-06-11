@@ -1,3 +1,11 @@
+/*
+  ALKS LED controlled example
+
+  Example with LED controlled by button.
+
+  Example created by Jarek Páral (JarekParal) @RoboticsBrno
+*/
+
 #include <ALKS.h>
 void setup() {
     Serial.begin(DEFAULT_SERIAL_SPEED);
