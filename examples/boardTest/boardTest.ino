@@ -3,7 +3,7 @@
 
   This example is used for testing ALKS boards after manufacturing process.
 
-  Original example created by Jarek Páral (@JarekParal) @RoboticsBrno
+  Original example created by Jakub Streit (@cednik) and Jarek Páral (@JarekParal) @RoboticsBrno
   Rework done by Kryštof Černý (@CornyjK) @RoboticsBrno
 */
 
