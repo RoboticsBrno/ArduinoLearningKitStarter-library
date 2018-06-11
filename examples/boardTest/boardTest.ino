@@ -1,4 +1,11 @@
-// Board tester firmare, remake by CornyjK.
+/*
+  ALKS Board tester firmware
+
+  This example is used for testing ALKS boards after manfacturing process.
+
+  Original example created by Jarek Páral (JarekParal) @RoboticsBrno
+  Rework done by Kryštof Černý (CornyjK) @RoboticsBrno
+*/
 
 #include <ALKS.h>
 #include <DHT.h>
@@ -6,10 +13,6 @@
 #define DHTTYPE  DHT11
 
 DHT dht(DHT_PIN, DHTTYPE);
-
-/*int freq = 2000;
-  int channel = 0;
-  int resolution = 8;*/
 
 unsigned long t_inc = 0;
 unsigned long t_meas = 0;
@@ -19,9 +22,7 @@ void setup() {
   setupAll();
   Serial.begin(DEFAULT_SERIAL_SPEED);
   dht.begin();
-  /*ledcSetup(channel, freq, resolution);
-    ledcAttachPin(19, channel);*/
-  Serial.print("Arduino learning kit starter hardware test firmware\n");
+  Serial.println("ALKS hardware test firmware");
 }
 
 void loop() {
@@ -60,40 +61,6 @@ void loop() {
   digitalWrite(L_RGB_R, digitalRead(SW3)   == HIGH ? LOW : HIGH);
   digitalWrite(L_RGB_G, digitalRead(SW2) == HIGH ? LOW : HIGH);
   digitalWrite(L_RGB_B, digitalRead(SW1)  == HIGH ? LOW : HIGH);
-
-  /*if (digitalRead(SW1) == LOW && digitalRead(SW2) == LOW)
-    {
-    digitalWrite(18, LOW);
-    Serial.write('PIEZO TEST! Alpha release, removed');
-    cnt = 0;
-    digitalWrite(L_R , LOW);
-    digitalWrite(L_Y , LOW);
-    digitalWrite(L_G , LOW);
-    digitalWrite(L_B , LOW);
-    digitalWrite(L_RGB_R, LOW);
-    digitalWrite(L_RGB_G, LOW);
-    digitalWrite(L_RGB_B, LOW);
-    ledcWriteTone(channel, 2000);
-
-    for (int dutyCycle = 0; dutyCycle <= 255; dutyCycle = dutyCycle + 10) {
-
-      Serial.println(dutyCycle);
-
-      ledcWrite(channel, dutyCycle);
-      delay(1000);
-    }
-
-    ledcWrite(channel, 125);
-
-    for (int freq = 255; freq < 10000; freq = freq + 250) {
-
-      Serial.println(freq);
-
-      ledcWriteTone(channel, freq);
-      delay(1000);
-    }
-    }
-    ledcWriteTone(channel, 0);*/
 
   if (Serial.available())
   {
