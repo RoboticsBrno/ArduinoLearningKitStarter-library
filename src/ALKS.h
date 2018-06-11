@@ -89,6 +89,21 @@ static const uint8_t S5 = 21;
   #error "Selected unsupported platform/processor!"
 #endif
 
+//alias for some pins/peripheries
+static const uint8_t LED_RED = L_R;
+static const uint8_t LED_GREEN = L_G;
+static const uint8_t LED_YELLOW = L_Y;
+static const uint8_t LED_BLUE = L_B;
+static const uint8_t LED_RGB_RED = L_RGB_R;
+static const uint8_t LED_RGB_GREEN = L_RGB_G;
+static const uint8_t LED_RGB_BLUE = L_RGB_B;
+
+static const uint8_t SEVRO1 = S1;
+static const uint8_t SEVRO2 = S2;
+static const uint8_t SEVRO3 = S3;
+static const uint8_t SEVRO4 = S4;
+static const uint8_t SEVRO5 = S5;
+
 void setupLeds();
 void setupRgbLed();
 void setupButtons();
