@@ -15,5 +15,5 @@ ALKS	KEYWORD1
 setupLeds	KEYWORD2
 setupRgbLed	KEYWORD2
 setupButtons	KEYWORD2
-setupPiezo()	KEYWORD2
-setupAll()	KEYWORD2
+setupPiezo	KEYWORD2
+setupAll	KEYWORD2
