@@ -33,7 +33,7 @@
             "name": "ServoESP32",
             "platforms": "espressif32"
         },
-		{
+        {
             "name": "DHT sensor library"
         }
     ]
