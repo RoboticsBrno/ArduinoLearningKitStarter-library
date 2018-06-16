@@ -94,7 +94,16 @@ static const uint8_t A3 = 26;
 static const uint8_t A4 = 27;
 static const uint8_t A5 = 14;
 static const uint8_t A6 = 12;
-static const uint8_t A7 = 15;*/
+static const uint8_t A7 = 15;
+
+static const uint8_t SDA = 27;
+static const uint8_t SCL = 14;
+
+static const uint8_t SS    = 19;
+static const uint8_t MOSI  = 21;
+static const uint8_t MISO  = 22;
+static const uint8_t SCK   = 23;
+*/
 
 static const uint8_t L_R = 22;
 static const uint8_t L_G = 17;
