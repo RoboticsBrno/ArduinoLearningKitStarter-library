@@ -71,7 +71,7 @@ static const uint8_t S3 = 9;
 static const uint8_t S4 = 10;
 static const uint8_t S5 = 11;
 
-#elif defined(alksesp32) // Hook from esp32 alks variant
+#elif defined(ALKSESP32) // Hook from esp32 alks variant
 
 #elif defined(ESP32)
 static const uint8_t D0 = 40;
