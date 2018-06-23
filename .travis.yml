@@ -14,14 +14,8 @@ install:
    - arduino --install-library "DHT sensor library","Adafruit Unified Sensor"
 
 script:
-   - travis_skip esp8266
-   - travis_skip leonardo
-   - travis_skip leonardo
-   - travis_skip zero
-   - travis_skip m4
-   - travis_skip mega2560
-   - travis_skip due
-   - build_main_platforms
+   - build_platform esp32
+   - build_platform uno
 
 # Generate and deploy documentation
 after_success:
