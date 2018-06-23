@@ -14,10 +14,12 @@ install:
    - arduino --install-library "DHT sensor library","Adafruit Unified Sensor"
 
 script:
-   - build_platform esp32
-   - build_platform uno
+  - build_platform uno
+  - build_platform esp32
 
 # Generate and deploy documentation
 after_success:
   - source <(curl -SLs  https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/library_check.sh)
-  - source <(curl -SLs  https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/doxy_gen_and_deploy.sh)
+
+notifications:
+  email: false
