@@ -28,16 +28,6 @@ void setupPiezo()
     pinMode(PIEZO2, OUTPUT);
 }
 
-void setupI2C()
-{
-    Wire.begin();
-}
-
-void setupSPI()
-{
-    SPI.begin();
-}
-
 void setupAll()
 {
     setupLeds();
