@@ -89,7 +89,8 @@ static const uint8_t D11 = 21;
 static const uint8_t D12 = 22;
 static const uint8_t D13 = 23;
 
-/*static const uint8_t A0 = 32;
+/* to use these pins you have to use ALKS ESP32 board variant instead
+static const uint8_t A0 = 32;
 static const uint8_t A1 = 33;
 static const uint8_t A2 = 25;
 static const uint8_t A3 = 26;
