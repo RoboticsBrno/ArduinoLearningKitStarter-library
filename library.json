@@ -1,7 +1,8 @@
 {
     "name": "ArduinoLearningKitStarter",
     "keywords": "ESP32, Learning Kit, ALKS, Robotarna, RobotikaBrno, RoboticsBrno",
-    "description": "Library for the PCB ArduinoLearningKitStarter (ALKS) by RoboticsBrno with definition of pins and initialization of peripheries.",
+    "description": "Library for the ArduinoLearningKitStarter (ALKS) board by RoboticsBrno with definition of pins and initialization of peripheries.",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library.git"
@@ -16,7 +17,7 @@
         {
             "name": "Jan Mrázek",
             "email": "email@honzamrazek.cz",
-            "url": "http://www.robotikabrno.cz",
+            "url": "http://www.robotikabrno.cz"
         },
         {
             "name": "Jaroslav Paral",
@@ -24,15 +25,18 @@
             "url": "http://www.robotikabrno.cz"
         }
     ],
-    "version": "1.1.0",
+    "version": "1.1.1",
     "frameworks": "arduino",
-    "platforms": "atmelavr, espressif32",
+    "platforms": [
+        "espressif32",
+        "atmelavr"
+    ],
     "dependencies": [
         {
             "name": "ServoESP32",
             "platforms": "espressif32"
-        }
-		{
+        },
+        {
             "name": "DHT sensor library"
         }
     ]

@@ -1,13 +1,16 @@
 # ArduinoLearningKitStarter-library
-Library for the [PCB ArduinoLearningKitStarter (ALKS)](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries.
+
+[![Build Status](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library.svg?branch=master)](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library)
+
+Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries.
 
 ## Available methods
 
-- `void setupLeds()` - set the pins for LEDs to output
-- `void setupRgbLeds()` - set the pins for RGB LEDs to output
-- `void setupButtons()` - set the pins for buttons to input with pull-up
-- `void setupPiezo()` - set the pins for piezo to output
-- `void setupAll()` - call all previous functions
+- `void setupLeds()` - sets the pins for LEDs to output
+- `void setupRgbLeds()` - sets the pins for RGB LEDs to output
+- `void setupButtons()` - sets the pins for buttons to input with pull-up
+- `void setupPiezo()` - sets the pins for piezo to output
+- `void setupAll()` - calls all previous functions
 
 [Source code](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
 
