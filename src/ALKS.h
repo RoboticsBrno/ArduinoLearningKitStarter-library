@@ -71,8 +71,7 @@ static const uint8_t S3 = 9;
 static const uint8_t S4 = 10;
 static const uint8_t S5 = 11;
 
-#elif defined(ALKSESP32)
-// If ALKS ESP32 board variant is selected, do not map pins again
+#elif defined(ALKSESP32) // If ALKS ESP32 board variant is selected, do not map pins again
 
 #elif defined(ESP32)
 static const uint8_t D0 = 40;
