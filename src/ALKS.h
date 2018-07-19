@@ -28,6 +28,21 @@ static const uint8_t PHOTO = A2;
 static const uint8_t DHT_PIN = A3;
 
 #elif defined(AVR)
+static const uint8_t D0 = 0;
+static const uint8_t D1 = 1;
+static const uint8_t D2 = 2;
+static const uint8_t D3 = 3;
+static const uint8_t D4 = 4;
+static const uint8_t D5 = 5;
+static const uint8_t D6 = 6;
+static const uint8_t D7 = 7;
+static const uint8_t D8 = 8;
+static const uint8_t D9 = 9;
+static const uint8_t D10 = 10;
+static const uint8_t D11 = 11;
+static const uint8_t D12 = 12;
+static const uint8_t D13 = 13;
+
 static const uint8_t L_R = 12;
 static const uint8_t L_G = 7;
 static const uint8_t L_Y = 13;
@@ -56,7 +71,43 @@ static const uint8_t S3 = 9;
 static const uint8_t S4 = 10;
 static const uint8_t S5 = 11;
 
+#elif defined(ALKSESP32) // If ALKS ESP32 board variant is selected, do not map pins again
+
 #elif defined(ESP32)
+static const uint8_t D0 = 40;
+static const uint8_t D1 = 41;
+static const uint8_t D2 = 15;
+static const uint8_t D3 = 2;
+static const uint8_t D4 = 0;
+static const uint8_t D5 = 4;
+static const uint8_t D6 = 16;
+static const uint8_t D7 = 17;
+static const uint8_t D8 = 5;
+static const uint8_t D9 = 18;
+static const uint8_t D10 = 19;
+static const uint8_t D11 = 21;
+static const uint8_t D12 = 22;
+static const uint8_t D13 = 23;
+
+/* to use these pins you have to use ALKS ESP32 board variant instead
+static const uint8_t A0 = 32;
+static const uint8_t A1 = 33;
+static const uint8_t A2 = 25;
+static const uint8_t A3 = 26;
+static const uint8_t A4 = 27;
+static const uint8_t A5 = 14;
+static const uint8_t A6 = 12;
+static const uint8_t A7 = 15;
+
+static const uint8_t SDA = 27;
+static const uint8_t SCL = 14;
+
+static const uint8_t SS    = 19;
+static const uint8_t MOSI  = 21;
+static const uint8_t MISO  = 22;
+static const uint8_t SCK   = 23;
+*/
+
 static const uint8_t L_R = 22;
 static const uint8_t L_G = 17;
 static const uint8_t L_Y = 23;
