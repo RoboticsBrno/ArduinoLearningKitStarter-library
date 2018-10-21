@@ -38,6 +38,9 @@
         },
         {
             "name": "DHT sensor library"
+        },
+        {
+            "name": "Adafruit Unified Sensor"
         }
     ]
 }
