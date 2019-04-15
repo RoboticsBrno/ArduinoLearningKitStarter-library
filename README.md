@@ -1,8 +1,16 @@
-# ArduinoLearningKitStarter-library
-
-[![Build Status](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library.svg?branch=master)](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library)
+# ArduinoLearningKitStarter-library [![Build Status](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library.svg?branch=master)](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library)
 
 Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries.
+
+## Available in library managers
+
+### Arduino Library Manager
+
+Available at the Arduino Library Manager in Arduino IDE. To access it type `CTRL` + `SHIFT` + `I` or `Sketch` -> `Include Library` -> `Manage Libraries..` and type `ALSK` or `ArduinoLearningKitStarter`. If you find the library, click on install button.
+
+### [PlatformIO Library Manager](https://platformio.org/lib/show/1745/ArduinoLearningKitStarter/)
+
+Available with PlatformIO - [instalation steps](https://platformio.org/lib/show/1745/ArduinoLearningKitStarter/installation). 
 
 ## Available methods
 
