@@ -4,12 +4,6 @@
 
 Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries.
 
-## Installation & code
-
-[Source code of library](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
-
-Library is also availibe on Arduino library manager in IDE. To access it type CTRL + SHIFT + I and type ArduinoLearningKitStarter and click install button.
-
 ## Available methods
 
 - `void setupLeds()` - sets the pins for LEDs to output
@@ -17,6 +11,10 @@ Library is also availibe on Arduino library manager in IDE. To access it type CT
 - `void setupButtons()` - sets the pins for buttons to input with pull-up
 - `void setupPiezo()` - sets the pins for piezo to output
 - `void setupAll()` - calls all previous functions
+
+[Source code of library](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
+
+Library is also availibe on Arduino library manager in IDE. To access it type CTRL + SHIFT + I and type ArduinoLearningKitStarter and click install button.
 
 ## Available pins
 Definition of pins, which are possible to use on board ALKS ([PDF with pinout on board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/blob/master/docs/pinout.pdf)).
@@ -55,5 +53,3 @@ Definition of pins, which are possible to use on board ALKS ([PDF with pinout on
 
 ### DHT11 pin 
 - `DHT_PIN`
-
-[Source code](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.h)
