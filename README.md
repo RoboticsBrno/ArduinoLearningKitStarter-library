@@ -1,6 +1,6 @@
 # ArduinoLearningKitStarter-library [![Build Status](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library.svg?branch=master)](https://travis-ci.org/RoboticsBrno/ArduinoLearningKitStarter-library)
 
-Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries.
+Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/) by RoboticsBrno with definition of pins and initialization of peripheries ([wiki](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki)).
 
 ## Available in library managers
 
