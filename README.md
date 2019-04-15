@@ -12,7 +12,9 @@ Library for the [ArduinoLearningKitStarter (ALKS) board](https://github.com/Robo
 - `void setupPiezo()` - sets the pins for piezo to output
 - `void setupAll()` - calls all previous functions
 
-[Source code](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
+Source code of library: [Click here.](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
+
+Library is also on Arduino library manager in IDE. To access it type CTRL + SHIFT + I and type ArduinoLearningKitStarter and click install button.
 
 ## Available pins
 Definition of pins, which are possible to use on board ALKS ([PDF with pinout on board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/blob/master/docs/pinout.pdf)).
