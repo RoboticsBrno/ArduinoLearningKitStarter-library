@@ -20,7 +20,7 @@ Available with PlatformIO - [instalation steps](https://platformio.org/lib/show/
 - `void setupPiezo()` - sets the pins for piezo to output
 - `void setupAll()` - calls all previous functions
 
-[Source code](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
+[Source code for the methods](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.cpp)
 
 ## Available pins
 Definition of pins, which are possible to use on board ALKS ([PDF with pinout on board](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/blob/master/docs/pinout.pdf)).
@@ -60,4 +60,4 @@ Definition of pins, which are possible to use on board ALKS ([PDF with pinout on
 ### DHT11 pin 
 - `DHT_PIN`
 
-[Source code](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.h)
+[Source code for the pins definition](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library/blob/master/src/ALKS.h)
