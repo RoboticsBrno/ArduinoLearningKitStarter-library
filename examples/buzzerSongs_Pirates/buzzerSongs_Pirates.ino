@@ -12,14 +12,14 @@ void loop(){
   
   //This code runs only on Esp 
   #if defined(ESP8266) || defined(ESP32)
-  for (int thisNote = 0; thisNote < (sizeof(Pirates_note)/sizeof(int)); thisNote++) {
+    for (int thisNote = 0; thisNote < (sizeof(Pirates_note)/sizeof(int)); thisNote++) {
 
-        int noteDuration = 1000 / Pirates_duration[thisNote];
-         ledcWriteTone(PIEZO1, Pirates_note[thisNote], noteDuration);
+          int noteDuration = 1000 / Pirates_duration[thisNote];
+          ledcWriteTone(PIEZO1, Pirates_note[thisNote], noteDuration);
 
-        int pauseBetweenNotes = noteDuration * 1.05; //Tempo. ou can set your own.
-        delay(pauseBetweenNotes);
-        noTone(PIEZO1); //Pause
+          int pauseBetweenNotes = noteDuration * 1.05; //Tempo. ou can set your own.
+          delay(pauseBetweenNotes);
+          delay(1000); //Pause
     }
   #endif
  
