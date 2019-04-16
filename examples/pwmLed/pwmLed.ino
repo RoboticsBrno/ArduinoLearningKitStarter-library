@@ -38,14 +38,15 @@ void loop(){
         delay(15);
       }
     }
+  #else
+
+    potProm = analogRead(POT1);
+
+    ledProm = map(potProm, 0, 1023, 0, 255);
+
+    analogWrite(LED_BLUE, ledProm);
+
+    delay(2);
   #endif
-  
-  potProm = analogRead(POT1);
-
-  ledProm = map(potProm, 0, 1023, 0, 255);
- 
-  analogWrite(LED_BLUE, ledProm);
-
-  delay(2);
 }
  
