@@ -3,7 +3,6 @@
 //We define all pins
 
 int potPin = A0;   
-int ledPin = 8;     
 
 int potProm = 0;    
 int ledProm = 0;   
@@ -23,22 +22,20 @@ void setup(){
 
 void loop(){
   
-  #if defined(ESP8266) || defined(ESP32)
-     // increase the LED brightness
-      for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++){   
-        // changing the LED brightness with PWM
-        ledcWrite(ledChannel, dutyCycle);
-        delay(15);
-      }
+  #if defined(ESP32)
+    ledcSetup(ledChannel, freq, resolution);
+    
+    // attach the channel to the GPIO to be controlled
+    ledcAttachPin(ledPin, ledChannel);
+  
+    potProm = analogRead(POT1);
 
-      // decrease the LED brightness
-      for(int dutyCycle = 255; dutyCycle >= 0; dutyCycle--){
-        // changing the LED brightness with PWM
-        ledcWrite(ledChannel, dutyCycle);   
-        delay(15);
-      }
-    }
-  #else
+    ledProm = map(potProm, 0, 1023, 0, 255);
+
+    analogWrite(LED_BLUE, ledProm);
+
+    delay(2);
+  #endif
 
     potProm = analogRead(POT1);
 
