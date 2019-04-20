@@ -8,8 +8,8 @@ git:
   depth: false
   quiet: true
 before_install:
+   - echo -e "Trying to get dependency" && [[ -d $HOME/arduino_ide/libraries/ESP32_AnalogWrite ]] || git clone https://github.com/ERROPiX/ESP32_AnalogWrite $HOME/arduino_ide/libraries/ESP32_AnalogWrite && echo -e "Dependency downloaded"
    - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
-   - echo -e "Trying to get dependency" && [[ ! -d $HOME/arduino_ide/libraries/ESP32_AnalogWrite ]] && git clone https://github.com/ERROPiX/ESP32_AnalogWrite $HOME/arduino_ide/libraries/ESP32_AnalogWrite && echo -e "Dependency downloaded"
 install:
    - arduino --install-library "DHT sensor library","Adafruit Unified Sensor"
 script:
