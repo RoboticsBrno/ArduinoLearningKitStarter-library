@@ -41,6 +41,10 @@
         },
         {
             "name": "Adafruit Unified Sensor"
+        },
+        {
+            "name": "ESP32 AnalogWrite",
+            "platforms": "espressif32"
         }
     ]
 }
