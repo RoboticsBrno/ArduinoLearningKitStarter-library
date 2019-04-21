@@ -3,7 +3,7 @@
 
   Example with fading LED.
 
-  Source: esp32 examples 
+  Source: https://github.com/ERROPiX/ESP32_AnalogWrite/blob/master/examples/ledFade/ledFade.ino
   Modified by Kryštof Černý (@CornyjK) @RoboticsBrno
 */
 
