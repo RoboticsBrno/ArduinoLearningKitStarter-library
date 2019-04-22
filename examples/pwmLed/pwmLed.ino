@@ -9,6 +9,7 @@ int potProm = 0;
 int ledProm = 0;   
  
 void setup(){
+ ledcSetup(1, 12000, 8);
 }
  
 void loop(){
