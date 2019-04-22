@@ -17,7 +17,7 @@ void loop(){
  
   ledProm = map(potProm, 0, 1023, 0, 255);
  
-  analogWrite(LED_BLUE, ledProm);
+  ledcWriteLED_BLUE, ledProm);
  
   delay(2);
 }
