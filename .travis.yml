@@ -10,7 +10,7 @@ git:
 before_install:
    - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
 install:
-   - arduino --install-library "DHT sensor library","Adafruit Unified Sensor"
+   - arduino --install-library "DHT sensor library","Adafruit Unified Sensor","ESP32 AnalogWrite"
 script:
   - build_platform uno
   - build_platform esp32
