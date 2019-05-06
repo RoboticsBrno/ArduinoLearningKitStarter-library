@@ -73,7 +73,12 @@ static const uint8_t S5 = 11;
 
 #elif defined(ALKSESP32) // If ALKS ESP32 board variant is selected, do not map pins again
 
+#include <analogWrite.h>
+
 #elif defined(ESP32)
+
+#include <analogWrite.h>
+
 static const uint8_t D0 = 40;
 static const uint8_t D1 = 41;
 static const uint8_t D2 = 15;
@@ -137,7 +142,7 @@ static const uint8_t S4 = 19;
 static const uint8_t S5 = 21;
 
 #else
-  #error "Selected unsupported platform/processor!"
+#error "Selected unsupported platform/processor!"
 #endif
 
 //alias for some pins/peripheries
@@ -159,4 +164,5 @@ void setupLeds();
 void setupRgbLed();
 void setupButtons();
 void setupPiezo();
+void setupAnalog(uint8_t resolution);
 void setupAll();
